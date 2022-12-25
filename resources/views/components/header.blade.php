@@ -3,6 +3,41 @@
         <div class="header-icon">
             <img src="{{ asset('images/icon.png') }}" class="h-12" alt="iconacademy">
         </div>
+        <div class="header-menu">
+            <ul class="flex gap-12">
+                <a href="">
+                    <li class="cursor-pointer">
+                        <div class="menu-course">
+                            <p>Course</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li class="cursor-pointer">
+                        <div class="menu-exercise">
+                            <p>Exercise</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li class="cursor-pointer">
+                        <div class="menu-category">
+                            <p>Category</p>
+                        </div>
+                    </li>
+                </a>
+                <a href="">
+                    <li class="cursor-pointer">
+                        <div class="menu-about">
+                            <p>About</p>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+
+
+
+        </div>
         <div class="header-login">
             <button
                 class="flex items-center gap-1 bg-white border-[.9px] rounded-lg border-purple-700 py-1 px-2 font-bold text-purple-700 hover:bg-gradient-to-r hover:from-purple-500 duration-300 hover:to-purple-700 hover:text-white">
