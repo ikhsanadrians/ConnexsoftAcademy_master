@@ -5,8 +5,8 @@
         </div>
         <div class="header-login">
             <button
-                class="flex items-center gap-1 bg-white border-[.9px] rounded-lg border-purple-700 py-1 px-2 font-bold text-purple-700">
-                <ion-icon name="log-in-outline" class="text-purple-700"></ion-icon>Sign Up
+                class="flex items-center gap-1 bg-white border-[.9px] rounded-lg border-purple-700 py-1 px-2 font-bold text-purple-700 hover:bg-gradient-to-r hover:from-purple-500 duration-300 hover:to-purple-700 hover:text-white">
+                <ion-icon name="log-in-outline"></ion-icon>Sign Up
             </button>
         </div>
     </div>
