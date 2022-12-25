@@ -1,12 +1,14 @@
 <header class="h-[4rem] w-full bg-white">
     <div class="header-inner w-full h-full lg:pl-[80px] lg:pr-[80px] pt-14 flex items-center justify-between">
         <div class="header-icon">
-            <img src="{{ asset('images/icon.png') }}" class="h-12" alt="iconacademy">
+            <a href="#">
+                <img src="{{ asset('images/icon.png') }}" class="h-12" alt="iconacademy">
+            </a>
         </div>
         <div class="header-menu">
             <ul class="flex gap-12 text-gray-700">
                 <a href="">
-                    <li class="cursor-pointer flex items-center gap-1">
+                    <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600 ">
                         <div class="menu-course">
                             <p>Courses</p>
                         </div>
@@ -14,15 +16,15 @@
                     </li>
                 </a>
                 <a href="">
-                    <li class="cursor-pointer flex items-center gap-1">
+                    <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600">
                         <div class="menu-exercise">
                             <p>Exercise</p>
                         </div>
                         <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
                 </a>
-                <a href="" cl>
-                    <li class="cursor-pointer flex items-center gap-1">
+                <a href="">
+                    <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600">
                         <div class="menu-category">
                             <p>Categories</p>
                         </div>
@@ -30,7 +32,7 @@
                     </li>
                 </a>
                 <a href="">
-                    <li class="cursor-pointer">
+                    <li class="cursor-pointer hover:text-purple-600">
                         <div class="menu-about">
                             <p>About</p>
                         </div>
