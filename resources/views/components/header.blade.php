@@ -4,26 +4,29 @@
             <img src="{{ asset('images/icon.png') }}" class="h-12" alt="iconacademy">
         </div>
         <div class="header-menu">
-            <ul class="flex gap-12">
+            <ul class="flex gap-12 text-gray-700">
                 <a href="">
-                    <li class="cursor-pointer">
+                    <li class="cursor-pointer flex items-center gap-1">
                         <div class="menu-course">
-                            <p>Course</p>
+                            <p>Courses</p>
                         </div>
+                        <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
                 </a>
                 <a href="">
-                    <li class="cursor-pointer">
+                    <li class="cursor-pointer flex items-center gap-1">
                         <div class="menu-exercise">
                             <p>Exercise</p>
                         </div>
+                        <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
                 </a>
-                <a href="">
-                    <li class="cursor-pointer">
+                <a href="" cl>
+                    <li class="cursor-pointer flex items-center gap-1">
                         <div class="menu-category">
-                            <p>Category</p>
+                            <p>Categories</p>
                         </div>
+                        <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
                 </a>
                 <a href="">
