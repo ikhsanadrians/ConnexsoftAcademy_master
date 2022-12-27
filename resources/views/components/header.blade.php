@@ -8,7 +8,7 @@
         <div class="header-menu">
             <ul class="flex gap-12 text-gray-700">
                 <a href="" class="relative" id="courseshref">
-                    <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600 ">
+                    <li class="cursor-pointer flex font-semibold items-center gap-1 hover:text-purple-600 ">
                         <div class="menu-course">
                             <p>Courses</p>
                         </div>
@@ -26,13 +26,25 @@
                         </ul>
                     </div>
                 </a>
-                <a href="">
+                <a href="" id="exercisehref">
                     <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600">
                         <div class="menu-exercise">
                             <p>Exercise</p>
                         </div>
                         <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
+                    <div class="dropdown-exercise absolute shadow-lg border-[1.2px] border-slate-200 rounded-lg p-4">
+                        <ul class="flex flex-col gap-2">
+                            <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">HTML
+                                Exercise
+                            </li>
+                            <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">Javascript
+                                Exercise</li>
+                            <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">
+                                CSS Exercise
+                            </li>
+                        </ul>
+                    </div>
                 </a>
                 <a href="">
                     <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600">

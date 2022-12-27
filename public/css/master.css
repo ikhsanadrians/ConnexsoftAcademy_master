@@ -22,14 +22,18 @@ body {
 
 }
 
-.dropdown-courses {
+.dropdown-courses , .dropdown-exercise {
     display :none;
 }
 
-.dropdown-courses > ul {
+.dropdown-courses > ul , .dropdown-exercise > ul {
     display :block;
 }
 
-#courseshref:hover .dropdown-courses {
+#courseshref:hover .dropdown-courses{
     display:block;
+}
+
+#exercisehref:hover .dropdown-exercise {
+    display: block;
 }
