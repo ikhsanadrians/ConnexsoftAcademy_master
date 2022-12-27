@@ -7,13 +7,24 @@
         </div>
         <div class="header-menu">
             <ul class="flex gap-12 text-gray-700">
-                <a href="">
+                <a href="" class="relative" id="courseshref">
                     <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600 ">
                         <div class="menu-course">
                             <p>Courses</p>
                         </div>
                         <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
+                    <div class="dropdown-courses absolute shadow-lg border-[1.2px] border-slate-200 rounded-lg p-4">
+                        <ul class="flex flex-col gap-8">
+                            <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">Web
+                                Development
+                            </li>
+                            <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">Mobile
+                                Development</li>
+                            <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">UI/UX Design
+                            </li>
+                        </ul>
+                    </div>
                 </a>
                 <a href="">
                     <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600">
