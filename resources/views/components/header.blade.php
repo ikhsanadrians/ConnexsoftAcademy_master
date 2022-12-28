@@ -43,6 +43,9 @@
                             <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">
                                 CSS Exercise
                             </li>
+                            <li>
+                                PHP Exercise
+                            </li>
                         </ul>
                     </div>
                 </a>
