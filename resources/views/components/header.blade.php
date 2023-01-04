@@ -3,10 +3,12 @@
         class="container mx-auto header-inner w-full h-full lg:pl-[80px] lg:pr-[80px] pt-14 flex items-center justify-between">
         <div class="header-icon">
             <a href="#">
-                <img src="{{ asset('images/icon.png') }}" class="h-12" alt="iconacademy">
+                <img src="{{ asset('images/icon.png') }}" class="h-12 md:block hidden lg:block" alt="iconacademy">
+                <img src="{{ asset('images/logoconnexsoft.png') }}" class="h-16 md:hidden lg:hidden block"
+                    alt="iconacademy">
             </a>
         </div>
-        <div class="header-menu">
+        <div class="header-menu lg:block md:block hidden">
             <ul class="flex gap-12 text-gray-700">
                 <a href="" class="relative" id="courseshref">
                     <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600 ">
@@ -70,17 +72,23 @@
             </ul>
 
 
+        </div>
+        <div class="header-login lg:block md:block hidden">
+            <div class="inner flex items-center gap-6">
+                <button
+                    class="font-semibold text-purple-500 hover:scale-105 hover:underline-offset-2 hover:underline duration-500">
+                    Sign In
+                </button>
+                <button
+                    class="flex items-center gap-1 hover:scale-105 bg-white border-[.9px] rounded-lg border-purple-700 py-1 px-2 font-bold text-purple-700 hover:bg-gradient-to-r hover:from-purple-500 duration-300 hover:to-purple-700 hover:text-white">
+                    <ion-icon name="log-in-outline"></ion-icon>Sign Up
+                </button>
+            </div>
 
         </div>
-        <div class="header-login flex items-center gap-6">
-            <button
-                class="font-semibold text-purple-500 hover:scale-105 hover:underline-offset-2 hover:underline duration-500">
-                Sign In
-            </button>
-            <button
-                class="flex items-center gap-1 hover:scale-105 bg-white border-[.9px] rounded-lg border-purple-700 py-1 px-2 font-bold text-purple-700 hover:bg-gradient-to-r hover:from-purple-500 duration-300 hover:to-purple-700 hover:text-white">
-                <ion-icon name="log-in-outline"></ion-icon>Sign Up
-            </button>
+        <div
+            class="header-hamburger lg:hidden block hover:text-white hover:shadow-sm hover:bg-gradient-to-r hover:from-purple-500 hover:to-purple-600 duration-200 rounded-2xl md:block bg-gray-200 h-12 w-12 flex items-center justify-center">
+            <ion-icon name="menu" class="text-4xl"></ion-icon>
         </div>
     </div>
 </header>

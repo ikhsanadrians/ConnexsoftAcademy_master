@@ -4,7 +4,7 @@
     <div class="main">
         <div class="main-text order-2 lg:order-1 md:order-2">
             <div class="inner">
-                <h1 class="lg:text-[3rem] md:text-[3rem] text-[3.2rem]">Belajar Coding Mudah Dan Gratis</h1>
+                <h1 class="lg:text-[3rem] md:text-[3rem] text-[2.7rem] text-[#292e53]">Belajar Coding Mudah Dan Gratis</h1>
                 <p class="lg:text-[1.2rem] md:text-[1.15rem] text-[1.1rem]">Tingkatkan keterampilan digital, tambah
                     portofolio,
                     dan siapkan karir kamu untuk
