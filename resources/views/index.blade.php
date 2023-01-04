@@ -11,7 +11,11 @@
                     jadi talenta digital
                     handal
                     bersama Connexsoft Academy #TwogetherWithConnexsoft</p>
+                <button
+                    class="mt-6 py-2 px-3 bg-gradient-to-r from-purple-800 font-semibold rounded-lg hover:scale-105 duration-200 to-purple-900 text-white tracking-wide">Learn
+                    Now</button>
             </div>
+
 
         </div>
         <div class="main-vector relative select-none pointer-events-none block order-1 lg:order-2 md:order-1">
