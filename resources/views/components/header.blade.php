@@ -1,5 +1,6 @@
 <header class="h-[4rem] w-full bg-white">
-    <div class="header-inner w-full h-full lg:pl-[80px] lg:pr-[80px] pt-14 flex items-center justify-between">
+    <div
+        class="container mx-auto header-inner w-full h-full lg:pl-[80px] lg:pr-[80px] pt-14 flex items-center justify-between">
         <div class="header-icon">
             <a href="#">
                 <img src="{{ asset('images/icon.png') }}" class="h-12" alt="iconacademy">
@@ -14,7 +15,8 @@
                         </div>
                         <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
-                    <div class="dropdown-courses absolute shadow-lg border-[1.2px] border-slate-200 rounded-lg p-4">
+                    <div
+                        class="dropdown-courses absolute shadow-lg border-[1.2px] bg-white border-slate-200 rounded-lg p-4">
                         <ul class="flex flex-col gap-8">
                             <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">Web
                                 Development
@@ -33,7 +35,8 @@
                         </div>
                         <ion-icon name="caret-down-outline"></ion-icon>
                     </li>
-                    <div class="dropdown-exercise absolute shadow-lg border-[1.2px] border-slate-200 rounded-lg p-4">
+                    <div
+                        class="dropdown-exercise absolute shadow-lg bg-white border-[1.2px] border-slate-200 rounded-lg p-4">
                         <ul class="flex flex-col gap-2">
                             <li class="hover:text-purple-600 font-semibold duration-200 text-gray-500 mb-2">HTML
                                 Exercise
@@ -69,9 +72,13 @@
 
 
         </div>
-        <div class="header-login">
+        <div class="header-login flex items-center gap-6">
             <button
-                class="flex items-center gap-1 bg-white border-[.9px] rounded-lg border-purple-700 py-1 px-2 font-bold text-purple-700 hover:bg-gradient-to-r hover:from-purple-500 duration-300 hover:to-purple-700 hover:text-white">
+                class="font-semibold text-purple-500 hover:scale-105 hover:underline-offset-2 hover:underline duration-500">
+                Sign In
+            </button>
+            <button
+                class="flex items-center gap-1 hover:scale-105 bg-white border-[.9px] rounded-lg border-purple-700 py-1 px-2 font-bold text-purple-700 hover:bg-gradient-to-r hover:from-purple-500 duration-300 hover:to-purple-700 hover:text-white">
                 <ion-icon name="log-in-outline"></ion-icon>Sign Up
             </button>
         </div>
