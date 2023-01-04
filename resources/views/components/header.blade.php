@@ -8,7 +8,7 @@
         <div class="header-menu">
             <ul class="flex gap-12 text-gray-700">
                 <a href="" class="relative" id="courseshref">
-                    <li class="cursor-pointer flex font-semibold items-center gap-1 hover:text-purple-600 ">
+                    <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600 ">
                         <div class="menu-course">
                             <p>Courses</p>
                         </div>
