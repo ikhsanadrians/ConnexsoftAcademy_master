@@ -34,7 +34,7 @@ body {
     height: 100%;
     padding: 7rem 0 0 0;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
