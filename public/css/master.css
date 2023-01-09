@@ -86,3 +86,11 @@ body {
 #exercisehref:hover .dropdown-exercise {
     display: block;
 }
+
+#title-roadmap-section {
+    font-family: 'Mona-Sans-ExtraBold';
+    color:white;
+}
+#card-description-title{
+    font-family: 'Mona-Sans-ExtraBold';
+}
