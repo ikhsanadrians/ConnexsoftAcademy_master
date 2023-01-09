@@ -21,6 +21,7 @@
         <div class=" w-full h-full py-[10px] px-0">
             @yield('content')
         </div>
+        <div class="mb-96"></div>
     </div>
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/header.js') }}"></script>
