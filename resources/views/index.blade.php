@@ -273,4 +273,24 @@
             </div>
         </div>
     </section>
+    <section id="third" class="w-full h-full pt-[5rem] mx-auto lg:px-[80px] bg-slate-200">
+        <div class="skill-sheet container mx-auto">
+            <div class="title mx-auto text-gray-800 text-3xl lg:w-[25rem] w-full">
+                <p class="text-center text-xl text-green-600 font-medium">#Mastering Skill</p>
+                <h1 id="third-section" class="text-center mt-2">
+                    Explore Skills Up to Date
+                    Untuk Modal Bekerja
+                </h1>
+            </div>
+            <div class="skill-list-1 w-full h-full">
+                <div class="skill-bread python w-full h-full">
+                    <div class="inner flex items-center w-full h-full">
+                        {{-- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> --}}
+                        <h1>Python</h1>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 @endsection

@@ -94,3 +94,16 @@ body {
 #card-description-title{
     font-family: 'Mona-Sans-ExtraBold';
 }
+
+#third-section {
+    font-family: 'Mona-Sans-ExtraBold';
+}
+
+.skill-bread {
+    background-color: white;
+    padding:5px 10px 5px 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+}
