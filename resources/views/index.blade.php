@@ -79,7 +79,7 @@
                                     <img src="{{ asset('images/thumbnail_roadmap-2.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
-                                <div class="card-description h-1/2 pt-6 text-xl text-gray-800">
+                                <div class="cursor-pointer card-description h-1/2 pt-6 text-xl text-gray-800">
                                     <h1 id="card-description-title">
                                         Berkarir Sebagai FullStack Web Developer Javascript
                                     </h1>
@@ -122,7 +122,7 @@
                                     <img src="{{ asset('images/thumbnail_roadmap-1.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
-                                <div class="card-description pt-6  h-1/2 text-xl text-gray-800">
+                                <div class="card-description cursor-pointer pt-6  h-1/2 text-xl text-gray-800">
                                     <h1 id="card-description-title">
                                         Berkarir Sebagai Freelance UI/UX Designer
                                     </h1>
@@ -201,7 +201,7 @@
 
                         </div>
                         <div
-                            class="card-3 w-[100%]  lg:w-[33%] h-[25rem] bg-white rounded-xl  hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
+                            class="card-3 cursor-pointer w-[100%]  lg:w-[33%] h-[25rem] bg-white rounded-xl  hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
                             <div class="card-inner w-full h-full p-4">
                                 <div class="card-thumbnail h-2/4 rounded-2xl overflow-hidden">
                                     <img src="{{ asset('images/thumbnail_roadmap-3.png') }}" alt="img-card"
