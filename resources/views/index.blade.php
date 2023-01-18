@@ -38,7 +38,7 @@
                             d="M780,585.5Q704,671,636.5,782Q569,893,451.5,840.5Q334,788,252,704Q170,620,191,507.5Q212,395,249,262.5Q286,130,436,71Q586,12,670,149.5Q754,287,805,393.5Q856,500,780,585.5Z" />
                     </g>
                 </svg>
-                <img class="user-select-none pointer-events-none" loading="lazy" src="{{ asset('images/centervectors.png') }}" alt="vector"
+                <img loading="lazy" src="{{ asset('images/centervectors.png') }}" alt="vector"
                     class="md:h-64 h-56 lg:h-80 select-none pointer-events-none">
                 <svg class="lg:block hidden md:hidden absolute drop-shadow-2xl -bottom-20 -z-10" width="200"
                     height="200" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
