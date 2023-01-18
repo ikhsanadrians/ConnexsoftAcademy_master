@@ -1,10 +1,6 @@
 @extends('layouts.master')
 @section('content')
     <section id="main" class="container mx-auto lg:px-[80px]">
-        <img class="absolute hidden md:hidden lg:block -z-10 h-20 top-[26rem] right-[38rem]"
-            src="{{ asset('images/vecteezy_stylized-3d-html-logo-design_12697299_717.png') }}" alt="blob">
-        <img class="absolute hidden md:hidden lg:block -z-10 h-20 top-32"
-            src="{{ asset('images/vecteezy_3d-javascript-logo-design_12697298_775.png') }}" alt="">
         <div class="main">
             <div class="main-text order-2 lg:order-1 md:order-2">
                 <div class="inner">
@@ -42,7 +38,7 @@
                             d="M780,585.5Q704,671,636.5,782Q569,893,451.5,840.5Q334,788,252,704Q170,620,191,507.5Q212,395,249,262.5Q286,130,436,71Q586,12,670,149.5Q754,287,805,393.5Q856,500,780,585.5Z" />
                     </g>
                 </svg>
-                <img src="{{ asset('images/centervectors.png') }}" alt="vector"
+                <img class="user-select-none pointer-events-none" loading="lazy" src="{{ asset('images/centervectors.png') }}" alt="vector"
                     class="md:h-64 h-56 lg:h-80 select-none pointer-events-none">
                 <svg class="lg:block hidden md:hidden absolute drop-shadow-2xl -bottom-20 -z-10" width="200"
                     height="200" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +72,7 @@
                             class="card-1 w-[100%] lg:w-[33%] h-[25rem] bg-white rounded-xl hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
                             <div class="card-inner w-full h-full p-4">
                                 <div class="card-thumbnail  h-2/4 rounded-2xl overflow-hidden">
-                                    <img src="{{ asset('images/thumbnail_roadmap-2.png') }}" alt="img-card"
+                                    <img class="user-select-none pointer-events-none" loading="lazy" src="{{ asset('images/thumbnail_roadmap-2.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
                                 <div class="cursor-pointer card-description h-1/2 pt-6 text-xl text-gray-800">
@@ -119,7 +115,7 @@
                             class="card-2 w-[100%] lg:w-[33%] h-[25rem] bg-white rounded-xl  hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
                             <div class="card-inner w-full h-full p-4">
                                 <div class="card-thumbnail  h-2/4 rounded-2xl overflow-hidden">
-                                    <img src="{{ asset('images/thumbnail_roadmap-1.png') }}" alt="img-card"
+                                    <img class="user-select-none pointer-events-none" loading="lazy"  src="{{ asset('images/thumbnail_roadmap-1.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
                                 <div class="card-description cursor-pointer pt-6  h-1/2 text-xl text-gray-800">
@@ -204,7 +200,7 @@
                             class="card-3 cursor-pointer w-[100%]  lg:w-[33%] h-[25rem] bg-white rounded-xl  hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
                             <div class="card-inner w-full h-full p-4">
                                 <div class="card-thumbnail h-2/4 rounded-2xl overflow-hidden">
-                                    <img src="{{ asset('images/thumbnail_roadmap-3.png') }}" alt="img-card"
+                                    <img class="user-select-none pointer-events-none" loading="lazy" src="{{ asset('images/thumbnail_roadmap-3.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
                                 <div class="card-description h-1/2 pt-6 text-xl text-gray-800">

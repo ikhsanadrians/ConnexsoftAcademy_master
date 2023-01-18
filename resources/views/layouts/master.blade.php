@@ -18,10 +18,10 @@
 <body>
     <div id="app">
         @include('components.header')
-        <div class=" w-full h-full py-[10px] px-0">
+        <div class=" w-full h-full py-[10px] px-0 relative">
             @yield('content')
         </div>
-        <div class="mb-"></div>
+        <div class="mb-96"></div>
     </div>
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/header.js') }}"></script>
