@@ -259,11 +259,8 @@
                                                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
                                         </div>
                                     </div>
-
                                 </div>
-
                             </div>
-
                         </div>
                     </div>
                 </div>
