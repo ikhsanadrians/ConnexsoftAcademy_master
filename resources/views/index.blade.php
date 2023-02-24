@@ -272,7 +272,7 @@
             </div>
         </div>
     </section>
-    <section id="third" class="w-full h-[50rem] max-h-full pt-[5rem] mx-auto  lg:px-[80px] bg-slate-200">
+    <section id="third" class="lg:block hidden w-full h-[50rem] max-h-full pt-[5rem] mx-auto  lg:px-[80px] bg-slate-200">
         <div class="skill-sheet justify-center container mx-auto w-full">
             <div class="title mx-auto text-gray-800 text-3xl mb-8 lg:w-[25rem] w-full">
                 <p class="text-center text-xl text-green-600 font-medium">#Mastering Skill</p>
@@ -281,7 +281,7 @@
                     Untuk Modal Bekerja
                 </h1>
             </div>
-            <div id="skill-list" class="skill-list-1 gap-2 flex justify-center w-full flex-wrap h-full">
+            <div id="skill-list" class="skill-list-1 gap-2 mt-12 flex justify-center w-full flex-wrap h-full">
                 <div id="py-bread"
                     class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner p-2 flex items-center w-full h-full gap-2 cursor-pointer flex-wrap">
@@ -315,7 +315,7 @@
                                 d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z">
                             </path>
                         </svg>
-                        <div class="title-desc">
+                        <div class="title-desc px-2">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Python</h1>
                             <p class="text-base text-gray-500">Data Science</p>
                         </div>
@@ -333,7 +333,7 @@
                             <path d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z"
                                 fill="#41b883"></path>
                         </svg>
-                        <div class="title-desc">
+                        <div class="title-desc px-2">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Vue</h1>
                             <p class="text-base text-gray-500">Front End Development</p>
                         </div>
@@ -348,7 +348,7 @@
                                 d="M49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1-.402.694l-9.209 5.302V39.25c0 .286-.152.55-.4.694L20.42 51.01c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1-.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054L.402 39.944A.801.801 0 0 1 0 39.25V6.334c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216l17.62-10.144zM1.602 7.719v31.068L19.22 48.93v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-.002-21.481L4.965 9.654 1.602 7.72zm8.81-5.994L2.405 6.334l8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764l4.645-2.674V7.719l-3.363 1.936-4.646 2.675v20.096l3.364-1.937zM39.243 7.164l-8.006 4.609 8.006 4.609 8.005-4.61-8.005-4.608zm-.801 10.605l-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937v-9.124zM20.02 38.33l11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833 7.993 4.524z"
                                 fill="#FF2D20" fill-rule="evenodd" />
                         </svg>
-                        <div class="title-desc">
+                        <div class="title-desc px-2">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Laravel</h1>
                             <p class="text-base text-gray-500">Back End Development</p>
                         </div>
@@ -398,9 +398,9 @@
                             <path fill="url(#flutter-original-a)" d="M61.6 113.1l30.8-8.4-10.8-10.8z"></path>
                         </svg>
 
-                        <div class="title-desc">
+                        <div class="title-desc px-2">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Flutter</h1>
-                            <p class="text-base text-gray-500">Cross Platform Development</p>
+                            <p class="text-base text-gray-500">Cross Platform Apps</p>
                         </div>
                     </div>
                 </div>
@@ -425,8 +425,7 @@
                 </div>
                 <div id="react-bread"
                     class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300 flex justify-center">
-                    <div class="inner py-2 px-2  justify-center flex items-center  w-[400px] h-full gap-2 cursor-pointer">
-                        <div class="inner-container flex items-center justify-center gap-2">
+                    <div class="inner py-2 px-2  flex items-center  w-full h-full gap-2 cursor-pointer">
                             <svg width="75" height="75" viewBox="0 0 128 128">
                                 <g fill="#61DAFB">
                                     <circle cx="64" cy="64" r="11.4"></circle>
@@ -435,17 +434,30 @@
                                     </path>
                                 </g>
                             </svg>
-                            <div class="title-desc w-full">
+                            <div class="title-desc">
                                 <h1 class="font-bold text-xl text-slate-800" id="title-bread">React</h1>
                                 <p class="text-base text-gray-500">Front End Development</p>
                             </div>
-                        </div>
                     </div>
                 </div>
+                <div id="unity-bread"
+                class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300 flex justify-center">
+                <div class="inner py-2 px-2  flex items-center  w-full h-full gap-2 cursor-pointer">
+
+                    <svg width="75" height="75" viewBox="0 0 128 128">
+                <path d="M82.48 63.578l22.418-38.402 10.832 38.402-10.832 38.398zm-10.926 6.238l22.422 38.402-39.047-9.922-28.211-28.48zM93.969 18.93L71.555 57.34H26.719L54.93 28.855zm32 31.582L112.293.031 61.25 13.559l-7.555 13.18-15.336-.109L1 63.582l37.359 36.949h.004l15.324-.113 7.57 13.176 51.035 13.527 13.676-50.473-7.762-13.07zm0 0" fill="#110B09"></path>
+                </svg>
+
+                        <div class="title-desc">
+                            <h1 class="font-bold text-xl text-slate-800" id="title-bread">Unity</h1>
+                            <p class="text-base text-gray-500">Game Dev</p>
+                        </div>
+                </div>
+            </div>
                 <div id="kotlin-bread"
                     class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
-                        <svg width="80" height="80" viewBox="0 0 128 128">
+                        <svg width="75" height="75" viewBox="0 0 128 128">
                             <linearGradient id="kotlin-original-a" gradientUnits="userSpaceOnUse" x1="-11.899"
                                 y1="48.694" x2="40.299" y2="-8.322">
                                 <stop offset="0" stop-color="#1c93c1"></stop>
@@ -485,47 +497,75 @@
                     </div>
                 </div>
                 <div id="kotlin-bread"
-                class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
-                <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
-                    <svg width="80" height="80" viewBox="0 0 128 128">
-                        <linearGradient id="kotlin-original-a" gradientUnits="userSpaceOnUse" x1="-11.899"
-                            y1="48.694" x2="40.299" y2="-8.322">
-                            <stop offset="0" stop-color="#1c93c1"></stop>
-                            <stop offset=".163" stop-color="#2391c0"></stop>
-                            <stop offset=".404" stop-color="#378bbe"></stop>
-                            <stop offset=".696" stop-color="#587eb9"></stop>
-                            <stop offset=".995" stop-color="#7f6cb1"></stop>
-                        </linearGradient>
-                        <path fill="url(#kotlin-original-a)" d="M0 0h65.4L0 64.4z"></path>
-                        <linearGradient id="kotlin-original-b" gradientUnits="userSpaceOnUse" x1="43.553"
-                            y1="149.174" x2="95.988" y2="94.876">
-                            <stop offset="0" stop-color="#1c93c1"></stop>
-                            <stop offset=".216" stop-color="#2d8ebf"></stop>
-                            <stop offset=".64" stop-color="#587eb9"></stop>
-                            <stop offset=".995" stop-color="#7f6cb1"></stop>
-                        </linearGradient>
-                        <path fill="url(#kotlin-original-b)" d="M128 128L64.6 62.6 0 128z"></path>
-                        <linearGradient id="kotlin-original-c" gradientUnits="userSpaceOnUse" x1="3.24"
-                            y1="95.249" x2="92.481" y2="2.116">
-                            <stop offset="0" stop-color="#c757a7"></stop>
-                            <stop offset=".046" stop-color="#ca5a9e"></stop>
-                            <stop offset=".241" stop-color="#d66779"></stop>
-                            <stop offset=".428" stop-color="#e17357"></stop>
-                            <stop offset=".6" stop-color="#e97c3a"></stop>
-                            <stop offset=".756" stop-color="#ef8324"></stop>
-                            <stop offset=".888" stop-color="#f28817"></stop>
-                            <stop offset=".982" stop-color="#f48912"></stop>
-                        </linearGradient>
-                        <path fill="url(#kotlin-original-c)" d="M0 128L128 0H64.6L0 63.7z"></path>
-                    </svg>
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                    <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
+
+                        <svg width="75" height="75" viewBox="0 0 128 128">
+                            <path fill="#F34F29"
+                                d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314 2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295 3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 01-13.683 0 9.677 9.677 0 01-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 012.559 1.828c3.778 3.777 3.778 9.898 0 13.683-3.779 3.777-9.904 3.777-13.679 0-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 013.167-2.11V47.333a9.581 9.581 0 01-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333 3.264 58.123a8.133 8.133 0 000 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 00-.001-11.501z">
+                            </path>
+                        </svg>
 
 
-                    <div class="title-desc">
-                        <h1 class="font-bold text-xl text-slate-800" id="title-bread">Kotlin</h1>
-                        <p class="text-base text-gray-500">Android App Development</p>
+
+                        <div class="title-desc">
+                            <h1 class="font-bold text-xl text-slate-800" id="title-bread">Git</h1>
+                            <p class="text-base text-gray-500">
+                                Version Control
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div id="threeJs-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                    <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
+
+
+                        <svg width="75" height="75" viewBox="0 0 128 128">
+                            <g color="#000" font-weight="400" font-family="sans-serif">
+                                <path
+                                    style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"
+                                    d="M16.219 15.762a1.129 1.129 0 00-1.076 1.399l24.394 98.742a1.129 1.129 0 001.879.544l73.386-70.59a1.129 1.129 0 00-.47-1.899L16.55 15.806a1.129 1.129 0 00-.331-.044zm1.584 2.754l94.024 27.07-70.566 67.877-23.458-94.947z"
+                                    overflow="visible"></path>
+                                <path
+                                    style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"
+                                    d="M65.137 29.84a1.129 1.129 0 00-.807.315L27.654 65.46a1.129 1.129 0 00.471 1.898L76.984 81.44a1.129 1.129 0 001.409-1.355L66.21 30.698a1.129 1.129 0 00-1.073-.858zm-.651 3.3L75.734 78.73l-45.104-13L64.486 33.14z"
+                                    overflow="visible"></path>
+                                <path
+                                    style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"
+                                    d="M46.914 47.313a1.129 1.129 0 00-1.076 1.399l6.054 24.531a1.129 1.129 0 001.88.543l18.222-17.563a1.129 1.129 0 00-.472-1.898l-24.277-6.968a1.129 1.129 0 00-.331-.044zm1.583 2.751l20.522 5.89L53.614 70.8l-5.117-20.736z"
+                                    overflow="visible"></path>
+                                <path
+                                    style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"
+                                    d="M40.902 22.809a1.129 1.129 0 00-.807.316L21.873 40.687a1.129 1.129 0 00.472 1.898l24.273 6.969a1.129 1.129 0 001.408-1.356l-6.051-24.53a1.129 1.129 0 00-1.073-.86zm-.65 3.3l5.114 20.736-20.517-5.89 15.403-14.847zM89.453 36.793a1.129 1.129 0 00-.806.316L70.423 54.67a1.129 1.129 0 00.472 1.899l24.274 6.968a1.129 1.129 0 001.408-1.356l-6.05-24.53a1.129 1.129 0 00-1.074-.859zm-.65 3.3l5.114 20.737L73.4 54.94l15.403-14.846zM52.944 71.864a1.129 1.129 0 00-.74.315L33.982 89.742a1.129 1.129 0 00.472 1.898l24.278 6.968a1.129 1.129 0 001.407-1.355l-6.055-24.531a1.129 1.129 0 00-1.14-.858zm-.582 3.3l5.118 20.737-20.522-5.89 15.404-14.846z"
+                                    overflow="visible"></path>
+                            </g>
+                        </svg>
+                        <div class="title-desc">
+                            <h1 class="font-bold text-xl text-slate-800" id="title-bread">Three JS</h1>
+                            <p class="text-base text-gray-500">
+                                Web 3d Modeling
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="threeJs-bread"
+                class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
+
+
+
+                    <svg width="75" height="75" viewBox="0 0 128 128">
+                        <path fill="#659AD3" d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"></path><path fill="#03599C" d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"></path><path fill="#fff" d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6z"></path>
+                        </svg>
+
+                    <div class="title-desc">
+                        <h1 class="font-bold text-xl text-slate-800" id="title-bread">C lang</h1>
+                        <p class="text-base text-gray-500">
+                           Kernel Development
+                        </p>
+                    </div>
+                </div>
             </div>
 
         </div>
