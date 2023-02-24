@@ -24,8 +24,8 @@
             </div>
             <div class="main-vector relative select-none pointer-events-none block order-1 lg:order-2 md:order-1">
 
-                <svg class="lg:block md:hidden hidden absolute -right-16 -z-10 drop-shadow-2xl" width="200"
-                    height="200" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+                <svg class="lg:block md:hidden hidden absolute -right-16 -z-10 drop-shadow-2xl" width="200" height="200"
+                    viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
                     <defs>
                         <clipPath id="shape">
                             <path fill="currentColor"
@@ -72,7 +72,8 @@
                             class="card-1 w-[100%] lg:w-[33%] h-[25rem] bg-white rounded-xl hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
                             <div class="card-inner w-full h-full p-4">
                                 <div class="card-thumbnail  h-2/4 rounded-2xl overflow-hidden">
-                                    <img class="user-select-none pointer-events-none" loading="lazy" src="{{ asset('images/thumbnail_roadmap-2.png') }}" alt="img-card"
+                                    <img class="user-select-none pointer-events-none" loading="lazy"
+                                        src="{{ asset('images/thumbnail_roadmap-2.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
                                 <div class="cursor-pointer card-description h-1/2 pt-6 text-xl text-gray-800">
@@ -115,7 +116,8 @@
                             class="card-2 w-[100%] lg:w-[33%] h-[25rem] bg-white rounded-xl  hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
                             <div class="card-inner w-full h-full p-4">
                                 <div class="card-thumbnail  h-2/4 rounded-2xl overflow-hidden">
-                                    <img class="user-select-none pointer-events-none" loading="lazy"  src="{{ asset('images/thumbnail_roadmap-1.png') }}" alt="img-card"
+                                    <img class="user-select-none pointer-events-none" loading="lazy"
+                                        src="{{ asset('images/thumbnail_roadmap-1.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
                                 <div class="card-description cursor-pointer pt-6  h-1/2 text-xl text-gray-800">
@@ -200,7 +202,8 @@
                             class="card-3 cursor-pointer w-[100%]  lg:w-[33%] h-[25rem] bg-white rounded-xl  hover:shadow-gray-400 hover:shadow-lg hover:scale-105 duration-300">
                             <div class="card-inner w-full h-full p-4">
                                 <div class="card-thumbnail h-2/4 rounded-2xl overflow-hidden">
-                                    <img class="user-select-none pointer-events-none" loading="lazy" src="{{ asset('images/thumbnail_roadmap-3.png') }}" alt="img-card"
+                                    <img class="user-select-none pointer-events-none" loading="lazy"
+                                        src="{{ asset('images/thumbnail_roadmap-3.png') }}" alt="img-card"
                                         class="w-full h-full object-cover">
                                 </div>
                                 <div class="card-description h-1/2 pt-6 text-xl text-gray-800">
@@ -279,62 +282,121 @@
                 </h1>
             </div>
             <div id="skill-list" class="skill-list-1 gap-2 flex justify-center w-full flex-wrap h-full">
-                <div id="py-bread" class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div id="py-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner p-2 flex items-center w-full h-full gap-2 cursor-pointer flex-wrap">
 
-                   <svg height="80" width="80" viewBox="0 0 128 128">
-                  <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252" y1="1237.476" x2="170.659" y2="1151.089" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#5A9FD4"></stop><stop offset="1" stop-color="#306998"></stop></linearGradient><linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474" y1="1098.811" x2="173.62" y2="1149.537" gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)"><stop offset="0" stop-color="#FFD43B"></stop><stop offset="1" stop-color="#FFE873"></stop></linearGradient><path fill="url(#python-original-a)" d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z" transform="translate(0 10.26)"></path><path fill="url(#python-original-b)" d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z" transform="translate(0 10.26)"></path><radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743" gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"></stop><stop offset="1" stop-color="#7F7F7F" stop-opacity="0"></stop></radialGradient><path opacity=".444" fill="url(#python-original-c)" d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z"></path>
-                </svg>
+                        <svg height="75" width="75" viewBox="0 0 128 128">
+                            <linearGradient id="python-original-a" gradientUnits="userSpaceOnUse" x1="70.252"
+                                y1="1237.476" x2="170.659" y2="1151.089"
+                                gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                                <stop offset="0" stop-color="#5A9FD4"></stop>
+                                <stop offset="1" stop-color="#306998"></stop>
+                            </linearGradient>
+                            <linearGradient id="python-original-b" gradientUnits="userSpaceOnUse" x1="209.474"
+                                y1="1098.811" x2="173.62" y2="1149.537"
+                                gradientTransform="matrix(.563 0 0 -.568 -29.215 707.817)">
+                                <stop offset="0" stop-color="#FFD43B"></stop>
+                                <stop offset="1" stop-color="#FFE873"></stop>
+                            </linearGradient>
+                            <path fill="url(#python-original-a)"
+                                d="M63.391 1.988c-4.222.02-8.252.379-11.8 1.007-10.45 1.846-12.346 5.71-12.346 12.837v9.411h24.693v3.137H29.977c-7.176 0-13.46 4.313-15.426 12.521-2.268 9.405-2.368 15.275 0 25.096 1.755 7.311 5.947 12.519 13.124 12.519h8.491V67.234c0-8.151 7.051-15.34 15.426-15.34h24.665c6.866 0 12.346-5.654 12.346-12.548V15.833c0-6.693-5.646-11.72-12.346-12.837-4.244-.706-8.645-1.027-12.866-1.008zM50.037 9.557c2.55 0 4.634 2.117 4.634 4.721 0 2.593-2.083 4.69-4.634 4.69-2.56 0-4.633-2.097-4.633-4.69-.001-2.604 2.073-4.721 4.633-4.721z"
+                                transform="translate(0 10.26)"></path>
+                            <path fill="url(#python-original-b)"
+                                d="M91.682 28.38v10.966c0 8.5-7.208 15.655-15.426 15.655H51.591c-6.756 0-12.346 5.783-12.346 12.549v23.515c0 6.691 5.818 10.628 12.346 12.547 7.816 2.297 15.312 2.713 24.665 0 6.216-1.801 12.346-5.423 12.346-12.547v-9.412H63.938v-3.138h37.012c7.176 0 9.852-5.005 12.348-12.519 2.578-7.735 2.467-15.174 0-25.096-1.774-7.145-5.161-12.521-12.348-12.521h-9.268zM77.809 87.927c2.561 0 4.634 2.097 4.634 4.692 0 2.602-2.074 4.719-4.634 4.719-2.55 0-4.633-2.117-4.633-4.719 0-2.595 2.083-4.692 4.633-4.692z"
+                                transform="translate(0 10.26)"></path>
+                            <radialGradient id="python-original-c" cx="1825.678" cy="444.45" r="26.743"
+                                gradientTransform="matrix(0 -.24 -1.055 0 532.979 557.576)"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0" stop-color="#B8B8B8" stop-opacity=".498"></stop>
+                                <stop offset="1" stop-color="#7F7F7F" stop-opacity="0"></stop>
+                            </radialGradient>
+                            <path opacity=".444" fill="url(#python-original-c)"
+                                d="M97.309 119.597c0 3.543-14.816 6.416-33.091 6.416-18.276 0-33.092-2.873-33.092-6.416 0-3.544 14.815-6.417 33.092-6.417 18.275 0 33.091 2.872 33.091 6.417z">
+                            </path>
+                        </svg>
                         <div class="title-desc">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Python</h1>
                             <p class="text-base text-gray-500">Data Science</p>
                         </div>
                     </div>
                 </div>
-                <div id="vue-bread" class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div id="vue-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner p-2 flex items-center w-full h-full gap-2 cursor-pointer">
-                        <svg width="80" height="80" viewBox="0 0 128 128">
-                            <path d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01" fill="none"></path><path d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z" fill="#35495e"></path><path d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z" fill="#41b883"></path>
-                            </svg>
+                        <svg width="75" height="75" viewBox="0 0 128 128">
+                            <path
+                                d="M0 8.934l49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637l-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008l-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17l23.002.009m-23.002-.01l23.002.01"
+                                fill="none"></path>
+                            <path d="M25.997 9.393l23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z"
+                                fill="#35495e"></path>
+                            <path d="M.91 9.569l25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z"
+                                fill="#41b883"></path>
+                        </svg>
                         <div class="title-desc">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Vue</h1>
                             <p class="text-base text-gray-500">Front End Development</p>
                         </div>
                     </div>
                 </div>
-                <div id="lrvl-bread" class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div id="lrvl-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner p-2 flex items-center w-full h-full gap-2 cursor-pointer">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75"
-                        viewBox="0 0 50 52">
-                        <title>Logomark</title>
-                        <path
-                            d="M49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1-.402.694l-9.209 5.302V39.25c0 .286-.152.55-.4.694L20.42 51.01c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1-.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054L.402 39.944A.801.801 0 0 1 0 39.25V6.334c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216l17.62-10.144zM1.602 7.719v31.068L19.22 48.93v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-.002-21.481L4.965 9.654 1.602 7.72zm8.81-5.994L2.405 6.334l8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764l4.645-2.674V7.719l-3.363 1.936-4.646 2.675v20.096l3.364-1.937zM39.243 7.164l-8.006 4.609 8.006 4.609 8.005-4.61-8.005-4.608zm-.801 10.605l-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937v-9.124zM20.02 38.33l11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833 7.993 4.524z"
-                            fill="#FF2D20" fill-rule="evenodd" />
-                    </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" viewBox="0 0 50 52">
+                            <title>Logomark</title>
+                            <path
+                                d="M49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1-.402.694l-9.209 5.302V39.25c0 .286-.152.55-.4.694L20.42 51.01c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1-.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054L.402 39.944A.801.801 0 0 1 0 39.25V6.334c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216l17.62-10.144zM1.602 7.719v31.068L19.22 48.93v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-.002-21.481L4.965 9.654 1.602 7.72zm8.81-5.994L2.405 6.334l8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764l4.645-2.674V7.719l-3.363 1.936-4.646 2.675v20.096l3.364-1.937zM39.243 7.164l-8.006 4.609 8.006 4.609 8.005-4.61-8.005-4.608zm-.801 10.605l-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937v-9.124zM20.02 38.33l11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833 7.993 4.524z"
+                                fill="#FF2D20" fill-rule="evenodd" />
+                        </svg>
                         <div class="title-desc">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Laravel</h1>
                             <p class="text-base text-gray-500">Back End Development</p>
                         </div>
                     </div>
                 </div>
-                <div id="figma-bread" class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div id="figma-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner p-2 flex items-center w-full h-full gap-2 cursor-pointer">
 
-                  <svg width="75" height="75" viewBox="0 0 128 128">
-                <path fill="#0acf83" d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0"></path><path fill="#a259ff" d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"></path><path fill="#f24e1e" d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"></path><path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"></path><path fill="#1abcfe" d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0"></path>
-                </svg>
+                        <svg width="75" height="75" viewBox="0 0 128 128">
+                            <path fill="#0acf83"
+                                d="M45.5 129c11.9 0 21.5-9.6 21.5-21.5V86H45.5C33.6 86 24 95.6 24 107.5S33.6 129 45.5 129zm0 0">
+                            </path>
+                            <path fill="#a259ff"
+                                d="M24 64.5C24 52.6 33.6 43 45.5 43H67v43H45.5C33.6 86 24 76.4 24 64.5zm0 0"></path>
+                            <path fill="#f24e1e"
+                                d="M24 21.5C24 9.6 33.6 0 45.5 0H67v43H45.5C33.6 43 24 33.4 24 21.5zm0 0"></path>
+                            <path fill="#ff7262" d="M67 0h21.5C100.4 0 110 9.6 110 21.5S100.4 43 88.5 43H67zm0 0"></path>
+                            <path fill="#1abcfe"
+                                d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5 76.6 43 88.5 43 110 52.6 110 64.5zm0 0">
+                            </path>
+                        </svg>
                         <div class="title-desc">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Figma</h1>
                             <p class="text-base text-gray-500">UI/UX Design</p>
                         </div>
                     </div>
                 </div>
-                <div id="flutter-bread" class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div id="flutter-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner p-2 flex items-center w-full h-full gap-2 cursor-pointer">
 
-                     <svg width="80" height="80" viewBox="0 0 128 128">
-                      <g fill="#3FB6D3"><path d="M12.3 64.2L76.3 0h39.4L32.1 83.6zM76.3 128h39.4L81.6 93.9l34.1-34.8H76.3L42.2 93.5z"></path></g><path fill="#27AACD" d="M81.6 93.9l-20-20-19.4 19.6 19.4 19.6z"></path><path fill="#19599A" d="M115.7 128L81.6 93.9l-20 19.2L76.3 128z"></path><linearGradient id="flutter-original-a" gradientUnits="userSpaceOnUse" x1="59.365" y1="116.36" x2="86.825" y2="99.399"><stop offset="0" stop-color="#1b4e94"></stop><stop offset=".63" stop-color="#1a5497"></stop><stop offset="1" stop-color="#195a9b"></stop></linearGradient><path fill="url(#flutter-original-a)" d="M61.6 113.1l30.8-8.4-10.8-10.8z"></path>
-                      </svg>
+                        <svg width="75" height="75" viewBox="0 0 128 128">
+                            <g fill="#3FB6D3">
+                                <path
+                                    d="M12.3 64.2L76.3 0h39.4L32.1 83.6zM76.3 128h39.4L81.6 93.9l34.1-34.8H76.3L42.2 93.5z">
+                                </path>
+                            </g>
+                            <path fill="#27AACD" d="M81.6 93.9l-20-20-19.4 19.6 19.4 19.6z"></path>
+                            <path fill="#19599A" d="M115.7 128L81.6 93.9l-20 19.2L76.3 128z"></path>
+                            <linearGradient id="flutter-original-a" gradientUnits="userSpaceOnUse" x1="59.365"
+                                y1="116.36" x2="86.825" y2="99.399">
+                                <stop offset="0" stop-color="#1b4e94"></stop>
+                                <stop offset=".63" stop-color="#1a5497"></stop>
+                                <stop offset="1" stop-color="#195a9b"></stop>
+                            </linearGradient>
+                            <path fill="url(#flutter-original-a)" d="M61.6 113.1l30.8-8.4-10.8-10.8z"></path>
+                        </svg>
 
                         <div class="title-desc">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Flutter</h1>
@@ -342,32 +404,130 @@
                         </div>
                     </div>
                 </div>
-                <div id="golang-bread" class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div id="golang-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
                     <div class="inner p-2 flex items-center w-full h-full gap-2 cursor-pointer">
-                     <svg width="80" height="80" viewBox="0 0 128 128">
-                     <g fill="#00acd7" fill-rule="evenodd"><path d="M11.156 54.829c-.243 0-.303-.122-.182-.303l1.273-1.637c.12-.182.424-.303.666-.303H34.55c.243 0 .303.182.182.364l-1.03 1.576c-.121.181-.424.363-.606.363zM2.004 60.404c-.242 0-.303-.12-.182-.303l1.273-1.636c.121-.182.424-.303.667-.303h27.636c.242 0 .364.182.303.364l-.485 1.454c-.06.243-.303.364-.545.364zM16.67 65.98c-.242 0-.302-.182-.181-.364l.848-1.515c.122-.182.364-.363.607-.363h12.12c.243 0 .364.181.364.424l-.12 1.454c0 .243-.243.425-.425.425zM79.58 53.738c-3.819.97-6.425 1.697-10.182 2.666-.91.243-.97.303-1.758-.606-.909-1.03-1.576-1.697-2.848-2.303-3.819-1.878-7.516-1.333-10.97.91-4.121 2.666-6.242 6.605-6.182 11.514.06 4.849 3.394 8.849 8.182 9.516 4.121.545 7.576-.91 10.303-4 .545-.667 1.03-1.394 1.636-2.243H56.064c-1.272 0-1.575-.788-1.151-1.818.788-1.879 2.242-5.03 3.09-6.606.183-.364.607-.97 1.516-.97h22.06c-.12 1.637-.12 3.273-.363 4.91-.667 4.363-2.303 8.363-4.97 11.878-4.364 5.758-10.06 9.333-17.273 10.303-5.939.788-11.454-.364-16.302-4-4.485-3.394-7.03-7.879-7.697-13.454-.788-6.606 1.151-12.546 5.151-17.758 4.303-5.636 10-9.212 16.97-10.485 5.697-1.03 11.151-.363 16.06 2.97 3.212 2.121 5.515 5.03 7.03 8.545.364.546.122.849-.606 1.03z"></path><path d="M99.64 87.253c-5.515-.122-10.546-1.697-14.788-5.334-3.576-3.09-5.818-7.03-6.545-11.697-1.091-6.848.787-12.909 4.909-18.302 4.424-5.819 9.757-8.849 16.97-10.122 6.181-1.09 12-.484 17.272 3.091 4.788 3.273 7.757 7.697 8.545 13.515 1.03 8.182-1.333 14.849-6.97 20.546-4 4.06-8.909 6.606-14.545 7.757-1.636.303-3.273.364-4.848.546zm14.424-24.485c-.06-.788-.06-1.394-.182-2-1.09-6-6.606-9.394-12.363-8.06-5.637 1.272-9.273 4.848-10.606 10.545-1.091 4.727 1.212 9.515 5.575 11.454 3.334 1.455 6.667 1.273 9.879-.363 4.788-2.485 7.394-6.364 7.697-11.576z" fill-rule="nonzero"></path></g>
-                      </svg>
+                        <svg width="75" height="75" viewBox="0 0 128 128">
+                            <g fill="#00acd7" fill-rule="evenodd">
+                                <path
+                                    d="M11.156 54.829c-.243 0-.303-.122-.182-.303l1.273-1.637c.12-.182.424-.303.666-.303H34.55c.243 0 .303.182.182.364l-1.03 1.576c-.121.181-.424.363-.606.363zM2.004 60.404c-.242 0-.303-.12-.182-.303l1.273-1.636c.121-.182.424-.303.667-.303h27.636c.242 0 .364.182.303.364l-.485 1.454c-.06.243-.303.364-.545.364zM16.67 65.98c-.242 0-.302-.182-.181-.364l.848-1.515c.122-.182.364-.363.607-.363h12.12c.243 0 .364.181.364.424l-.12 1.454c0 .243-.243.425-.425.425zM79.58 53.738c-3.819.97-6.425 1.697-10.182 2.666-.91.243-.97.303-1.758-.606-.909-1.03-1.576-1.697-2.848-2.303-3.819-1.878-7.516-1.333-10.97.91-4.121 2.666-6.242 6.605-6.182 11.514.06 4.849 3.394 8.849 8.182 9.516 4.121.545 7.576-.91 10.303-4 .545-.667 1.03-1.394 1.636-2.243H56.064c-1.272 0-1.575-.788-1.151-1.818.788-1.879 2.242-5.03 3.09-6.606.183-.364.607-.97 1.516-.97h22.06c-.12 1.637-.12 3.273-.363 4.91-.667 4.363-2.303 8.363-4.97 11.878-4.364 5.758-10.06 9.333-17.273 10.303-5.939.788-11.454-.364-16.302-4-4.485-3.394-7.03-7.879-7.697-13.454-.788-6.606 1.151-12.546 5.151-17.758 4.303-5.636 10-9.212 16.97-10.485 5.697-1.03 11.151-.363 16.06 2.97 3.212 2.121 5.515 5.03 7.03 8.545.364.546.122.849-.606 1.03z">
+                                </path>
+                                <path
+                                    d="M99.64 87.253c-5.515-.122-10.546-1.697-14.788-5.334-3.576-3.09-5.818-7.03-6.545-11.697-1.091-6.848.787-12.909 4.909-18.302 4.424-5.819 9.757-8.849 16.97-10.122 6.181-1.09 12-.484 17.272 3.091 4.788 3.273 7.757 7.697 8.545 13.515 1.03 8.182-1.333 14.849-6.97 20.546-4 4.06-8.909 6.606-14.545 7.757-1.636.303-3.273.364-4.848.546zm14.424-24.485c-.06-.788-.06-1.394-.182-2-1.09-6-6.606-9.394-12.363-8.06-5.637 1.272-9.273 4.848-10.606 10.545-1.091 4.727 1.212 9.515 5.575 11.454 3.334 1.455 6.667 1.273 9.879-.363 4.788-2.485 7.394-6.364 7.697-11.576z"
+                                    fill-rule="nonzero"></path>
+                            </g>
+                        </svg>
                         <div class="title-desc">
                             <h1 class="font-bold text-xl text-slate-800" id="title-bread">Golang</h1>
                             <p class="text-base text-gray-500">Back End Development</p>
                         </div>
                     </div>
                 </div>
-                <div id="react-bread" class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
-                    <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
-
-            <svg viewBox="0 0 128 128">
-                <g fill="#61DAFB"><circle cx="64" cy="64" r="11.4"></circle><path d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"></path></g>
-                </svg>
-
-                        <div class="title-desc">
-                            <h1 class="font-bold text-xl text-slate-800" id="title-bread">React</h1>
-                            <p class="text-base text-gray-500">Front End Development</p>
+                <div id="react-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300 flex justify-center">
+                    <div class="inner py-2 px-2  justify-center flex items-center  w-[400px] h-full gap-2 cursor-pointer">
+                        <div class="inner-container flex items-center justify-center gap-2">
+                            <svg width="75" height="75" viewBox="0 0 128 128">
+                                <g fill="#61DAFB">
+                                    <circle cx="64" cy="64" r="11.4"></circle>
+                                    <path
+                                        d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3C8.2 50 1.4 56.6 1.4 64s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zM92.5 14.7c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zM81.3 74c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zM64 97.8c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zM64 30.2c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zM31.7 35c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zM7 64c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5C15.3 75.6 7 69.6 7 64zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zM96.3 93c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z">
+                                    </path>
+                                </g>
+                            </svg>
+                            <div class="title-desc w-full">
+                                <h1 class="font-bold text-xl text-slate-800" id="title-bread">React</h1>
+                                <p class="text-base text-gray-500">Front End Development</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div id="kotlin-bread"
+                    class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                    <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
+                        <svg width="80" height="80" viewBox="0 0 128 128">
+                            <linearGradient id="kotlin-original-a" gradientUnits="userSpaceOnUse" x1="-11.899"
+                                y1="48.694" x2="40.299" y2="-8.322">
+                                <stop offset="0" stop-color="#1c93c1"></stop>
+                                <stop offset=".163" stop-color="#2391c0"></stop>
+                                <stop offset=".404" stop-color="#378bbe"></stop>
+                                <stop offset=".696" stop-color="#587eb9"></stop>
+                                <stop offset=".995" stop-color="#7f6cb1"></stop>
+                            </linearGradient>
+                            <path fill="url(#kotlin-original-a)" d="M0 0h65.4L0 64.4z"></path>
+                            <linearGradient id="kotlin-original-b" gradientUnits="userSpaceOnUse" x1="43.553"
+                                y1="149.174" x2="95.988" y2="94.876">
+                                <stop offset="0" stop-color="#1c93c1"></stop>
+                                <stop offset=".216" stop-color="#2d8ebf"></stop>
+                                <stop offset=".64" stop-color="#587eb9"></stop>
+                                <stop offset=".995" stop-color="#7f6cb1"></stop>
+                            </linearGradient>
+                            <path fill="url(#kotlin-original-b)" d="M128 128L64.6 62.6 0 128z"></path>
+                            <linearGradient id="kotlin-original-c" gradientUnits="userSpaceOnUse" x1="3.24"
+                                y1="95.249" x2="92.481" y2="2.116">
+                                <stop offset="0" stop-color="#c757a7"></stop>
+                                <stop offset=".046" stop-color="#ca5a9e"></stop>
+                                <stop offset=".241" stop-color="#d66779"></stop>
+                                <stop offset=".428" stop-color="#e17357"></stop>
+                                <stop offset=".6" stop-color="#e97c3a"></stop>
+                                <stop offset=".756" stop-color="#ef8324"></stop>
+                                <stop offset=".888" stop-color="#f28817"></stop>
+                                <stop offset=".982" stop-color="#f48912"></stop>
+                            </linearGradient>
+                            <path fill="url(#kotlin-original-c)" d="M0 128L128 0H64.6L0 63.7z"></path>
+                        </svg>
+
+
+                        <div class="title-desc">
+                            <h1 class="font-bold text-xl text-slate-800" id="title-bread">Kotlin</h1>
+                            <p class="text-base text-gray-500">Android App Development</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="kotlin-bread"
+                class="skill-bread python w-full h-full hover:ring-2 hover:ring-blue-600 duration-300">
+                <div class="inner py-2 px-2  flex items-center w-full h-full gap-2 cursor-pointer">
+                    <svg width="80" height="80" viewBox="0 0 128 128">
+                        <linearGradient id="kotlin-original-a" gradientUnits="userSpaceOnUse" x1="-11.899"
+                            y1="48.694" x2="40.299" y2="-8.322">
+                            <stop offset="0" stop-color="#1c93c1"></stop>
+                            <stop offset=".163" stop-color="#2391c0"></stop>
+                            <stop offset=".404" stop-color="#378bbe"></stop>
+                            <stop offset=".696" stop-color="#587eb9"></stop>
+                            <stop offset=".995" stop-color="#7f6cb1"></stop>
+                        </linearGradient>
+                        <path fill="url(#kotlin-original-a)" d="M0 0h65.4L0 64.4z"></path>
+                        <linearGradient id="kotlin-original-b" gradientUnits="userSpaceOnUse" x1="43.553"
+                            y1="149.174" x2="95.988" y2="94.876">
+                            <stop offset="0" stop-color="#1c93c1"></stop>
+                            <stop offset=".216" stop-color="#2d8ebf"></stop>
+                            <stop offset=".64" stop-color="#587eb9"></stop>
+                            <stop offset=".995" stop-color="#7f6cb1"></stop>
+                        </linearGradient>
+                        <path fill="url(#kotlin-original-b)" d="M128 128L64.6 62.6 0 128z"></path>
+                        <linearGradient id="kotlin-original-c" gradientUnits="userSpaceOnUse" x1="3.24"
+                            y1="95.249" x2="92.481" y2="2.116">
+                            <stop offset="0" stop-color="#c757a7"></stop>
+                            <stop offset=".046" stop-color="#ca5a9e"></stop>
+                            <stop offset=".241" stop-color="#d66779"></stop>
+                            <stop offset=".428" stop-color="#e17357"></stop>
+                            <stop offset=".6" stop-color="#e97c3a"></stop>
+                            <stop offset=".756" stop-color="#ef8324"></stop>
+                            <stop offset=".888" stop-color="#f28817"></stop>
+                            <stop offset=".982" stop-color="#f48912"></stop>
+                        </linearGradient>
+                        <path fill="url(#kotlin-original-c)" d="M0 128L128 0H64.6L0 63.7z"></path>
+                    </svg>
+
+
+                    <div class="title-desc">
+                        <h1 class="font-bold text-xl text-slate-800" id="title-bread">Kotlin</h1>
+                        <p class="text-base text-gray-500">Android App Development</p>
+                    </div>
+                </div>
+            </div>
             </div>
 
-    </div>
+        </div>
     </section>
 @endsection
