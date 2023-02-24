@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('content')
-    <section id="main" class="container mx-auto lg:px-[80px]">
+    <section id="container-main" class="container mx-auto lg:px-[80px]">
         <div class="main">
             <div class="main-text order-2 lg:order-1 md:order-2">
                 <div class="inner">
@@ -15,9 +15,11 @@
                         jadi talenta digital
                         handal
                         bersama Connexsoft Academy #TwogetherWithConnexsoft</p>
-                    <button
-                        class="mt-6 py-2 px-3 bg-gradient-to-r from-purple-800 font-semibold rounded-lg hover:scale-105 duration-200 hover:shadow-md to-purple-900 text-white tracking-wide">Learn
-                        Now</button>
+                        <a href="#container-roadmap">
+                            <button
+                            class="mt-6 py-2 px-3 bg-gradient-to-r from-purple-800 font-semibold rounded-lg hover:scale-105 duration-200 hover:shadow-md to-purple-900 text-white tracking-wide">Learn
+                            Now</button>
+                        </a>
                 </div>
 
 
@@ -59,9 +61,9 @@
 
         </div>
     </section>
-    <section id="second" class="w-full h-full mt-[15rem] !-px-10">
-        <div class="roadmap-section w-[100%] h-full pb-12 lg:h-[40rem] bg-gradient-to-r from-purple-600 to-purple-900">
-            <div class="inner flex items-center  w-full h-full mx-auto container px-4 lg:px-[80px] pt-10">
+    <section id="container-roadmap" class="w-full h-full mt-[15rem] !-px-10">
+        <div class="roadmap-section w-[100%] h-full pb-12 lg:h-[100vh] bg-gradient-to-r from-purple-600 to-purple-900">
+            <div class="inner flex items-center  w-full h-full mx-auto container px-4 lg:px-[80px] py-16">
                 <div class="wrapper-inner w-full h-full">
                     <div class="title md:w-[30rem] w-full lg:w-[30rem]">
                         <h1 id="title-roadmap-section" class="text-3xl">Alur Belajar Terbaik
@@ -269,7 +271,7 @@
             </div>
         </div>
     </section>
-    <section id="third" class="lg:block hidden w-full h-[50rem] max-h-full pt-[5rem] mx-auto  lg:px-[80px] bg-slate-200">
+    <section id="container-exploreskill" class="lg:block hidden w-full h-[50rem] max-h-full pt-[5rem] mx-auto  lg:px-[80px] bg-slate-200">
         <div class="skill-sheet justify-center container mx-auto w-full">
             <div class="title mx-auto text-gray-800 text-3xl mb-8 lg:w-[25rem] w-full">
                 <p class="text-center text-xl text-green-600 font-medium">#Mastering Skill</p>

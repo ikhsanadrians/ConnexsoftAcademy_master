@@ -8,7 +8,7 @@
                     alt="iconacademy">
             </a>
         </div>
-        <div class="header-menu lg:block md:block hidden">
+        <div class="header-menu lg:block hidden">
             <ul class="flex gap-12 text-gray-700">
                 <a href="" class="relative" id="courseshref">
                     <li class="cursor-pointer flex items-center gap-1 hover:text-purple-600 ">
@@ -73,7 +73,7 @@
 
 
         </div>
-        <div class="header-login lg:block md:block hidden">
+        <div class="header-login lg:block hidden">
             <div class="inner flex items-center gap-6">
                 <button
                     class="font-semibold text-purple-500 hover:scale-105 hover:underline-offset-2 hover:underline duration-500">
