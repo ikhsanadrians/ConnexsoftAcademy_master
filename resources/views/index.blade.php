@@ -272,7 +272,7 @@
         </div>
     </section>
     <section id="exploreskill"
-        class="lg:block hidden w-full h-[50rem] max-h-full pt-[5rem] mx-auto  lg:px-[80px] bg-slate-200">
+        class="lg:block hidden w-full h-[38rem] max-h-full pt-[5rem] mx-auto  lg:px-[80px] bg-slate-200">
         <div class="skill-sheet justify-center container mx-auto w-full">
             <div class="title mx-auto text-gray-800 text-3xl mb-8 lg:w-[25rem] w-full">
                 <p class="text-center text-xl text-green-600 font-medium">#Mastering Skill</p>
