@@ -581,16 +581,16 @@
             </div>
     </section>
     <section id="mentor" class="w-full h-full !-px-10">
-        <div class="mentor-section w-[100%] h-full pb-12 lg:h-[100vh] bg-slate-200">
+        <div class="mentor-section w-[100%] h-full pb-12 lg:h-[70vh] bg-slate-200">
             <div class="inner flex items-center  w-full h-full mx-auto container px-4 lg:px-[80px] py-16">
                 <div class="wrapper-inner w-[100%] h-full">
-                    <div class="wrapper-title w-[43%]">
+                    <div class="wrapper-title lg:w-[43%] w-full">
                         <h1 id="title-mentor-section" class="text-3xl text-gray-800">
                             Belajar Dengan Mentor Expert Terbaik Di Bidangnya
                         </h1>
                     </div>
-                    <div class="mentor-list w-full flex mt-8 gap-4">
-                        <div class="mentor-el bg-white basis-[33%] h-60 rounded-lg">
+                    <div class="mentor-list w-full flex lg:flex-row flex-col sm:flex-row mt-8 gap-4">
+                        <div class="mentor-el bg-white shadow-sm basis-[33%] h-60 rounded-lg hover:scale-105 duration-300 hover:ring-1 hover:ring-purple-600">
                             <div class="mentor-inner w-full h-full flex justify-center p-8">
                                 <div class="mentor-wrapper-profile w-full h-full flex flex-col items-center gap-2">
                                     <div
@@ -598,7 +598,7 @@
                                         <img src="{{ asset('images/mentorPicture/rlorenzo.jpeg') }}" alt=""
                                             class="w-full h-full user-select-none pointer-events-none">
                                     </div>
-                                    <div class="mentor-name">
+                                    <div class="mentor-name cursor-pointer">
                                         <h1 class="font-extrabold text-center text-xl font-[#1f2937]">Rafael Lorenzo</h1>
                                         <p class="text-slate-500 text-center">UI/UX Designer</p>
                                     </div>
@@ -645,7 +645,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="mentor-ray bg-white basis-[33%] h-60 rounded-lg">
+                        <div class="mentor-ray bg-white basis-[33%] shadow-sm h-60 rounded-lg hover:scale-105 duration-300 hover:ring-1 hover:ring-purple-600">
                             <div class="mentor-inner w-full h-full flex justify-center p-8">
                                 <div class="mentor-wrapper-profile w-full h-full flex flex-col items-center gap-2">
                                     <div
@@ -653,7 +653,7 @@
                                         <img src="{{ asset('images/mentorPicture/dudungs.png') }}" alt=""
                                             class="w-full h-full user-select-none pointer-events-none">
                                     </div>
-                                    <div class="mentor-name">
+                                    <div class="mentor-name cursor-pointer">
                                         <h1 class="font-extrabold text-center text-xl font-[#1f2937]">Raya Arrizky</h1>
                                         <p class="text-slate-500 text-center">Flutter Developer Lead</p>
                                     </div>
@@ -700,7 +700,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="mentor-san bg-white basis-[33%] h-60 rounded-lg">
+                        <div class="mentor-san bg-white basis-[33%] shadow-sm h-60 rounded-lg hover:scale-105 duration-300 hover:ring-1 hover:ring-purple-600">
                             <div class="mentor-inner w-full h-full flex justify-center p-8">
                                 <div class="mentor-wrapper-profile w-full h-full flex flex-col items-center gap-2">
                                     <div
@@ -708,7 +708,7 @@
                                         <img src="{{ asset('images/mentorPicture/aing.png') }}" alt=""
                                             class="w-full h-full user-select-none pointer-events-none">
                                     </div>
-                                    <div class="mentor-name">
+                                    <div class="mentor-name cursor-pointer">
                                         <h1 class="font-extrabold text-center text-xl font-[#1f2937]">Ikhsan Adrians</h1>
                                         <p class="text-slate-500">Senior Backend Engineer</p>
                                     </div>
@@ -760,4 +760,18 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="quiz" class="w-full h-full !-px-10">
+        <div class="quiz-section w-[100%] pb-12 h-[100vh] bg-slate-200 py-8">
+            <div class="inner flex items-center  w-full h-full mx-auto container px-4 lg:px-[80px]">
+              <div class="quiz-container w-full h-full">
+                <div class="quiz-title">
+                    <h1 id="title-quiz-section" class="text-3xl text-gray-800">Kerjakan Quiz-Quiz Menarik</h1>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
     @endsection

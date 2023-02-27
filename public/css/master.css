@@ -97,9 +97,11 @@ body {
     font-family: 'Mona-Sans-ExtraBold';
 }
 
-#title-mentor-section {
+#title-mentor-section , #title-quiz-section{
     font-family: 'Mona-Sans-ExtraBold';
 }
+
+
 
 .skill-bread {
     background-color: white;
