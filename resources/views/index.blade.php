@@ -768,6 +768,20 @@
                 <div class="quiz-title">
                     <h1 id="title-quiz-section" class="text-3xl text-gray-800">Kerjakan Quiz-Quiz Menarik</h1>
                 </div>
+                <div class="quiz-example-container flex lg:flex-row flex-col w-full h-full gap-4 mt-8">
+                    <div class="quiz-1 bg-white shadow-lg basis-1/2 p-6 relative rounded-lg">
+                       <div class="quiz-corner-title font-semibold absolute top-6 rounded-md left-0 bg-yellow-400  -rotate-[25deg] px-4">
+                         <p>JavaScript</p>
+                       </div>
+                       <div class="quiz-dificulity absolute top-6 right-8">
+                          <p>Easy</p>
+                       </div>
+                    </div>
+
+                    <div class="quiz-2 bg-purple-500 basis-1/2 relative rounded-lg">
+
+                    </div>
+                </div>
               </div>
             </div>
         </div>
