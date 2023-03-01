@@ -214,7 +214,7 @@ const HLJS = function(hljs) {
         if (data) {
           const [kind, keywordRelevance] = data;
           emitter.addText(buf);
-          buf = "";
+          buf = "
 
           keywordHits[word] = (keywordHits[word] || 0) + 1;
           if (keywordHits[word] <= MAX_KEYWORD_HITS) relevance += keywordRelevance;
