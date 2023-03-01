@@ -776,6 +776,15 @@
                        <div class="quiz-dificulity absolute top-6 right-8">
                           <p>Easy</p>
                        </div>
+                       <div class="quiz-code mt-10 lg:mt-16">
+                        <pre class="prettyprint !p-4 !font-[monospace]">class Voila {
+                            public:
+                              // Voila
+                              static const string VOILA = "Voila";
+
+                              // will not interfere with embedded <a href="#voila2">tags</a>.
+                            }</pre>
+                       </div>
                     </div>
 
                     <div class="quiz-2 bg-purple-500 basis-1/2 relative rounded-lg">

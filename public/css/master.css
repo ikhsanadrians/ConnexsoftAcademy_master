@@ -124,6 +124,14 @@ body {
 }
 
 
+pre {
+   outline: none;
+   border: none !important;
+   background-color: #3e4a5e;
+   font-family: monospace !important;
+   border-radius: 10px;
+}
+
 /* #py-bread {
   animation: LeftToRight 10s linear infinite;
 }
