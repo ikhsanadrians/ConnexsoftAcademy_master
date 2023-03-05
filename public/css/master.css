@@ -16,6 +16,10 @@
     src: url('../fonts/Mona-Sans-ExtraBold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'JetbrainsMono-Regular';
+    src: url('../fonts/JetBrainsMono-Regular.ttf') format('truetype');
+}
 
 body {
     width: 100%;
@@ -124,13 +128,6 @@ body {
 }
 
 
-pre {
-   outline: none;
-   border: none !important;
-   background-color: #3e4a5e;
-   font-family: monospace !important;
-   border-radius: 10px;
-}
 
 /* #py-bread {
   animation: LeftToRight 10s linear infinite;
@@ -139,3 +136,10 @@ pre {
 #vue-bread {
     animation: LeftToRight 10.5s linear infinite;
 } */
+
+pre code {
+    font-family: 'JetbrainsMono-Regular';
+    text-align: left;
+    border-radius: 10px;
+    margin-top:1.5rem;
+}

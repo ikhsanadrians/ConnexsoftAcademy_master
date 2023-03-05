@@ -776,14 +776,31 @@
                        <div class="quiz-dificulity absolute top-6 right-8">
                           <p>Easy</p>
                        </div>
-                       <div class="quiz-code mt-10 lg:mt-16">
-                        <pre class="prettyprint !p-4 !font-[monospace]">class Voila {
-                            public:
-                              // Voila
-                              static const string VOILA = "Voila";
-
-                              // will not interfere with embedded <a href="#voila2">tags</a>.
-                            }</pre>
+                       <div>
+                          <pre>
+                            <code class="language-javascript">
+let x = 2;
+for(let i = 0; i < 10; i++){
+    if(x < 10){
+      x += i - 1;
+    }
+}
+                            </code>
+                          </pre>
+                       </div>
+                       <div class="quiz-question">
+                          <p class="text-lg">Output apa yang akan dihasilkan code berikut?</p>
+                       </div>
+                       <div class="quiz-answers-list flex gap-2 w-full mt-2">
+                           <div class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-1">
+                               <h1>11</h1>
+                           </div>
+                           <div class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-2">
+                               <h1>9</h1>
+                           </div>
+                           <div class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-3">
+                               <h1>5</h1>
+                           </div>
                        </div>
                     </div>
 

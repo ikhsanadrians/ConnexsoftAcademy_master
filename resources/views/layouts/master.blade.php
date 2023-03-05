@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="{{ asset('css/base.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="{{ asset('css/master.css') }}">
-    <link rel="stylesheet" href="{{ asset('js\js-lib\highlight.js-main\src\highlight.js') }}">
+    <link rel="stylesheet"
+    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
     <link rel="shortcut icon" href="{{ asset('images/logoconnexsoft2.png') }}" type="image/x-icon">
     @vite('resources/css/app.css')
 </head>
@@ -24,10 +26,14 @@
         </div>
         <div class="mb-96"></div>
     </div>
-    <script src="{{ asset('js/jquery.js') }}"></script>
+    <script src="{{ asset('js/js-lib/jquery.js') }}"></script>
     <script src="{{ asset('js/header.js') }}"></script>
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/styles/sunburst.css"></script>
+    <script src="{{ asset('js/quiz.js') }}"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+
+
 </body>
 
 </html>
