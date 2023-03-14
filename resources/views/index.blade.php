@@ -792,13 +792,13 @@ for(let i = 0; i < 10; i++){
                           <p class="text-lg">Output apa yang akan dihasilkan code berikut?</p>
                        </div>
                        <div class="quiz-answers-list flex gap-2 w-full mt-2">
-                           <div class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-1">
+                           <div data="cr" class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-1">
                                <h1>11</h1>
                            </div>
-                           <div class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-2">
+                           <div data="icr" class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-2">
                                <h1>9</h1>
                            </div>
-                           <div class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-3">
+                           <div data="icr" class="answer cursor-pointer hover:bg-slate-300 rounded-lg bg-slate-200 basis-[33%] h-16 font-bold items-center flex justify-center" id="answer-3">
                                <h1>5</h1>
                            </div>
                        </div>
