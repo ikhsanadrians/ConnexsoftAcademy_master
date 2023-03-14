@@ -804,8 +804,40 @@ for(let i = 0; i < 10; i++){
                        </div>
                     </div>
 
-                    <div class="quiz-2 bg-purple-500 basis-1/2 relative rounded-lg">
-
+                    <div class="quiz-2 basis-1/2 relative rounded-lg bg-white p-8 shadow-lg">
+                        <div class="quiz-corner-title font-semibold absolute top-6 rounded-md left-0 bg-[#356a96] text-white -rotate-[25deg] px-4">
+                            <p>Python</p>
+                          </div>
+                          <div class="quiz-dificulity absolute top-6 right-8">
+                            <p>Medium</p>
+                         </div>
+                        <div id="quiz-exe-contain" class="quiz-question p-8 mt-8 relative overflow-hidden bg-[#282c34] text-white rounded-lg">
+                            <span id="incorrect" class="hidden bg-red-300 text-red-600 text-lg font-bold absolute top-0 left-0 w-full h-full p-4" id="quiz-exe-incorrect">
+                                <h1>Maaf Jawabanmu Salah</h1>
+                                <button id="btnIncorrect" class="absolute bottom-4 right-4 text-base flex items-center">Coba Lagi<ion-icon name="arrow-forward"></ion-icon></button>
+                            </span>
+                            <span id="correct" class="hidden bg-green-300 text-green-600 text-lg font-bold absolute top-0 left-0 w-full h-full p-4" id="quiz-exe-incorrect">
+                                <h1>Hore Jawabanmu Benar!</h1>
+                                <button id="btnCorrect" class="absolute bottom-4 right-4 text-base flex items-center">Next<ion-icon name="arrow-forward"></ion-icon></button>
+                            </span>
+                            <span id="quiz-exe">
+                                <h1 class="text-lg"><span></span>txt = "hello dunia!"</h1>
+                                x = <input id="quiz-exes" type="text" class="font-semibold border-2 rounded-sm px-1 text-slate-900 border-slate-200 w-[70px] ml-1" maxlength="6">
+                            </span>
+                        </div>
+                        <div class="quiz-hint mt-8">
+                            <h1 class="text-lg">Ambilah karakter pertama dari variable string txt!</h1>
+                        </div>
+                        <div class="answer-action flex gap-2">
+                            <div class="submit-answers mt-4 flex items-center gap-2 bg-gradient-to-r p-2 max-w-fit text-white cursor-pointer rounded-xl font-bold from-green-400 to-cyan-500">
+                                <ion-icon name="send"></ion-icon>
+                                <h1>Kirim Jawaban</h1>
+                            </div>
+                            <div class="show-answers mt-4 flex items-center gap-2 bg-gradient-to-r p-2 max-w-fit text-white cursor-pointer rounded-xl font-bold from-purple-500 to-purple-600">
+                                <ion-icon name="eye"></ion-icon>
+                                <h1>Tunjukan Jawaban</h1>
+                            </div>
+                        </div>
                     </div>
                 </div>
               </div>
